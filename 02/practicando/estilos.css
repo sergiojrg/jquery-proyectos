@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaf1ff;
+}
+
+.contenedor{
+    width: 700px;
+    margin:0 auto;
+}
+
+.document{
+    background: #fff;
+    margin-top: 70px;
+    box-shadow: 5px 5px 20px 10px #ccc;
+    border-radius: 6px;
+    padding:50px
+}
+
+.title{
+    text-align: center;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input[type="number"]{
+    padding:10px;
+    margin:0;
+    border-radius: 5px;
+    border:1px solid #dadada
+}
