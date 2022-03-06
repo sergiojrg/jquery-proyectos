@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="../jquery-3.6.0.min.js"></script>
+    <title>Galeria de imagenes</title>
+</head>
+<body>
+
+    <div class="main">
+        <div id="viewer" class="big">
+            <img class="big" src="img/1.jpg" alt="1">
+        </div>
+        <div id="controls">
+            <button id="backward" class="control"><<</button>
+            <button id="play" class="control">></button>
+            <button id="forward" class="control">>></button>
+        </div>
+        <div class="thumbnail">
+            <img src="img/1.jpg" id="1" alt="1" class="selected small">
+            <img src="img/2.jpg" id="2" alt="2" class="small">
+            <img src="img/3.jpg" id="3" alt="3" class="small">
+            <img src="img/4.jpg" id="4" alt="4" class="small">
+            <img src="img/5.jpg" id="5" alt="5" class="small">
+            <img src="img/6.jpg" id="6" alt="6" class="small">
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
