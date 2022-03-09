@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    margin:20px 10px;
+}
+
+#main{
+    display:flex;
+}
+
+#map, #image{
+    height:600px;
+    width:100%;
+}
+
+#searchbox{
+    width:20%;
+    height:600px;
+    display:flex;
+    flex-flow:column;
+}
+
+#search{
+    width:200px;
+}
+
+.control{
+    margin:5px 15px;
+}
+
+img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
