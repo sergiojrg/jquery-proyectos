@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+}
+
+#juego{
+    margin-top: 50px;
+    height:80%;
+}
+
+.fila{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.contenedor{
+    height: 130px;
+    width: 200px;
+    border:1px solid black;
+}
+
+.caja{
+    width:100%;
+    height:100%;
+}
+
+#resultado{
+    height: 20%;
+    text-align: center;
+    font-size:26px;
+    display: flex;
+    justify-content: space-evenly;
+}
